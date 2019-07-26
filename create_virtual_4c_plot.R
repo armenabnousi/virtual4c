@@ -8,7 +8,7 @@ parser$add_argument('-r', '--region', type="character", help='viewpoint region c
 parser$add_argument('-b', '--binsize', type="integer", help='binsize')
 parser$add_argument('-d', '--distance', type="integer", help='distance from viewpoint for plot range')
 parser$add_argument('-o', '--output', type="character", help='output filename')
-parser$add_argument('-t', '--text-output', type="logical", help='weather to output the table used for plot generation, default=True', default = FALSE, nargs = '?', const = TRUE)
+parser$add_argument('-t', '--text-output', type="logical", help='weather to output the table used for plot generation', default = FALSE, nargs = '?', const = TRUE)
 
 #parser$print_help()
 
